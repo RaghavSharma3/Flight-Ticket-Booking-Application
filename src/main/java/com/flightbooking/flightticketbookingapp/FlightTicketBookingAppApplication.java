@@ -1,7 +1,6 @@
 package com.flightbooking.flightticketbookingapp;
 
 import com.flightbooking.flightticketbookingapp.repository.UserRepo;
-import com.flightbooking.flightticketbookingapp.security.JwtService;
 import com.flightbooking.flightticketbookingapp.user.Role;
 import com.flightbooking.flightticketbookingapp.user.User;
 import lombok.RequiredArgsConstructor;
@@ -9,7 +8,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.ComponentScan;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
 @SpringBootApplication
